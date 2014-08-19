@@ -1,0 +1,284 @@
+@Charset "UTF-8";
+
+body {
+   font: normal normal normal medium '小塚ゴシック Pro','ヒラギノ角ゴ Pro W3','メイリオ','Lucida Grande','Verdana','Hiragino Kaku Gothic Pro',sans-serif;
+   background:#EEEEEE;
+   color:#000000;
+   margin:10px auto;
+   padding:0px
+   text-align:left
+   line-height:150%;
+   width:1000px;
+   border: 0px dotted #725330;
+
+
+}
+
+
+pre {
+   font: normal normal normal medium 'Verdana','Bitstream Vera Sans','Lucida Grande','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','ＭＳ Ｐゴシック', sans-serif;       
+   line-height:150%;
+}
+p {
+   line-height:150%;
+}
+
+a:link {
+   color:#333333; 
+   text-decoration:none;
+   font-weight:normal;
+   border-bottom:dotted 0px #333333;
+}
+a:visited{
+   color:#333333;
+   text-decoration:none;
+   font-weight:normal;
+   border-bottom:dotted 0px #333333
+}
+a:hover { 
+   text-decoration:none;
+   text-shadow: 0px 0px 4px #000000;
+}
+
+img{
+   border-width:0px;	  
+}
+
+
+.past{color:#999999; line-height:150%}
+.now{line-height:150%}
+
+a:link.past,a:visited.past,a:hover.past{color:#B8D31B}
+
+hr{width:99%; border: 1px dotted #725330; }
+
+img{
+   margin: 0px;
+   padding: 0px;
+}
+img.floatR{
+  float: right;
+  margin-left: 10px;
+  margin-bottom:10px
+}
+img.floatL{
+  float: left;
+  margin-right: 10px;
+   margin-left:10px;
+  margin-bottom: 10px
+}
+.clearR{ clear: right }
+.clearL{ clear: left }
+
+p{
+   margin-left:24px;
+   margin-right:24px;
+   text-indent:12px;
+}
+
+header, section, footer {
+   display:block;
+   -webkit-border-radius: 10px; 
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: 1px 1px 10px #666; 
+   -moz-box-shadow: 1px 1px 10px #666666;
+   box-shadow: 1px 1px 10px #666;
+   border: 0px solid #d3d3d3;
+   background-color: #fff;
+   margin:0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   font-size: small;
+   color: #000;
+   text-align: left;
+   behavior: url("./PIE.htc");
+
+}
+
+
+header {
+   text-align:center;
+   margin:0px 0px 0px 0px;
+   padding:0px 0px 0px 0px;
+
+   -webkit-border-radius: 10px; 
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-border-top-left-radius: 0px; 
+   -moz-border-radius-topleft: 0px;
+   border-top-left-radius: 0px;
+
+   background-image: url("../images/obi.jpg");
+   background-repeat: no-repeat;
+   background-position: center 0px; /*左位置指定　上からの位置指定*/
+   background-attachment: scroll;
+
+   border:none;
+   color:#fffff;
+   text-shadow: 0px 0px 4px #000000;
+   width:1000px;
+   height:330px;
+   behavior: url("./PIE.htc");
+}
+header h1, header h2, header h3, header h4, header h5, header h6, header li, header p {
+}
+header h1 {
+    font-size:normal;
+    text-transform:none;
+    letter-spacing:0em;
+}
+header h2 {
+    margin:-10px 0px 20px;
+    font-size:normal;
+}
+header h2 {
+    margin:-10px 0px 20px;
+    font-size:normal;
+}
+header ul {
+    padding:0px;
+    list-style-type:none;
+    display:inline;
+}
+header li {
+    margin:0px 10px;
+    padding:0px;
+    list-style-type:none;
+    display:inline;
+}
+header a:link, header a:hover, header a:visited {
+   font-weight:normal;
+   text-decoration:none;
+   font-weight:normal;
+   border: 0px solid #000000;
+}
+
+
+
+section {
+   display:box;
+   float:left;
+   width:480px;
+   height:auto;
+   text-align:left;
+   padding:10px 10px 10px 10px;
+   margin:10px 0px 10px 0px;
+}
+section .sub{
+   width:480px;
+   padding:10px 0px 10px 0px;
+   margin:10px 0px 10px 0px;
+}
+
+section h1, nav h1 {
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   background-color:#004488;
+   color:#FFFFFF;
+   padding:5px 10px 5px 10px;
+   margin:0px 10px 10px 10px;
+   text-shadow:1px 1px 5px #000;
+   font-size:medium;
+   behavior: url("./PIE.htc");
+}
+
+section h2, nav h2 {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color:#0066AA;
+    color:#FFFFFF;
+    padding:5px;
+    margin: 5px;
+    text-shadow:1px 1px 5px #000;
+   font-size:medium;
+   behavior: url("./PIE.htc");
+}
+
+section h3, nav h3{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color:#0066AA;
+    color:#FFFFFF;
+    padding:5px;
+    margin: 15px;
+    text-shadow:1px 1px 5px #000;
+   font-size:medium;
+   behavior: url("./PIE.htc");
+}
+
+section h3 a:link, section h3 a:visited{
+   color:#FFFFFF; 
+   text-decoration:none;
+   font-weight:normal;
+   border-bottom:dotted 1px #333333;}
+}
+section ul {
+   padding:0px;
+   list-style:none;
+   border-top:0px solid #e7e2d7;
+   margin-left:30px;
+}
+section li {
+   margin-left:10px;
+   padding:0px;
+   list-style:disc;
+   line-height:150%;
+}
+section li a:link, section li a:visited {
+   color:#333333; 
+   text-decoration:none;
+   font-weight:normal;
+   border-bottom:dotted 1px #333333;}
+}
+section li a:hover {
+    background:#f2f1ec;
+}
+section p {
+    font-size:normal;
+}
+
+section p.right {
+   text-align:right;
+}
+
+form{
+   border:0px;
+   margin-right:20px;
+   text-align:right;
+}
+input{
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: 1px 1px 10px #666; 
+   -moz-box-shadow: 1px 1px 10px #666;
+   box-shadow: 1px 1px 10px #666;
+   font-size:12px;
+   padding:4px 2px;
+   border:solid 1px #aacfe4;
+   margin:0px 0 0px 10px;
+   behavior: url("./PIE.htc");
+}
+
+article {
+    margin:0 0 30px 0;
+}
+footer {
+   clear:both !important;
+   padding:10px;
+
+   background-color: #004488;
+   border:none;
+   color:#FFFFFF;
+   font-size:x-small;
+   text-align:center;
+   line-height:120%;
+
+
+}
+footer a {
+    margin:0px 5px;
+}

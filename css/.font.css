@@ -1,0 +1,42 @@
+@font-face
+{
+font-family: 'mplus-1c-thin';
+src: url('http://tetsuakibaba.jp/font/mplus-1c-light.ttf')
+     format("truetype");
+}
+
+@font-face {
+    font-family: 'frectricmedium';
+    src: url('http://tetsuakibaba.jp/font/freqtric-webfont.eot');
+    src: url('http://tetsuakibaba.jp/font/freqtric-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tetsuakibaba.jp/font/freqtric-webfont.woff') format('woff'),
+         url('http://tetsuakibaba.jp/font/freqtric-webfont.ttf') format('truetype'),
+         url('http://tetsuakibaba.jp/font/freqtric-webfont.svg#frectricmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+ h1{
+   font-family: 'Julius Sans One',  'mplus-1c-thin';
+   font-size:28px;
+ }
+ h2{
+     font-family: 'Julius Sans One',  'mplus-1c-thin';
+   font-size:24px;
+ }
+  h3{
+   font-family: 'Julius Sans One',  'mplus-1c-thin';
+   font-size:18px;
+ }
+  h4{
+    font-family: 'Julius Sans One',  'mplus-1c-thin';
+   font-size:18px;
+ }
+p, section li, pre, .reference{
+  font-family:'mplus-1c-thin', sans-serif;
+}
+.reference{
+font-size:12px;
+line-height:120%;
+}
